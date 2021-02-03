@@ -20,4 +20,10 @@ public class WorldApplication {
         return "Hello, COM19!";
     }
 
+    @ResponseBody
+    @RequestMapping("/about")
+    String about() {
+        return "Done by Ruslan Isaev";
+    }
+
 }
